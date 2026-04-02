@@ -1,6 +1,6 @@
-Loan Classification Model
+#Loan Classification Model
 
-Overview
+##Overview
 This project builds a machine learning model to predict whether a loan
 application will be approved or declined based on applicant and
 loan-related features.
@@ -11,7 +11,7 @@ approach for classification.
 
 ------------------------------------------------------------------------
 
-Problem Statement
+##Problem Statement
 Financial institutions need to assess loan applications efficiently
 while minimizing risk.
 Loan approval decisions depend on multiple factors such as income,
@@ -25,7 +25,7 @@ approach
 
 ------------------------------------------------------------------------
 
-Technologies Used
+##Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -38,7 +38,7 @@ Technologies Used
 
 ------------------------------------------------------------------------
 
-Project Structure
+##Project Structure
 LoanClassification.ipynb # main analysis notebook
 loan_data.csv # dataset (upload manually)
 
@@ -47,7 +47,7 @@ final predictions.
 
 ------------------------------------------------------------------------
 
-Installation
+##Installation
 1. Open Google Colab
 2. Upload the notebook and dataset
 3. Install dependencies if needed:
@@ -57,7 +57,7 @@ matplotlib seaborn
 
 ------------------------------------------------------------------------
 
-Usage
+##Usage
 Run all cells in the notebook from top to bottom. The notebook will: -
 Load and explore the dataset
 - Handle missing values
@@ -68,7 +68,7 @@ Load and explore the dataset
 
 ------------------------------------------------------------------------
 
-Results / Output
+##Results / Output
 - Tree-based models outperform linear models
 - SMOTE improves minority class prediction
 - XGBoost achieved the best performance
@@ -76,5 +76,5 @@ Results / Output
 
 ------------------------------------------------------------------------
 
-Dataset Source
+##Dataset Source
 Loan dataset https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data
